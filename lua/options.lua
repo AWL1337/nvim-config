@@ -14,6 +14,7 @@ vim.keymap.set("n", "<leader>w", "<C-w>w", {noremap = true, silent = true})
 vim.keymap.set('n', '<leader>ff', ":Telescope find_files<CR>")
 
 vim.keymap.set('n', '<leader>t', ':Neotree toggle<CR>')
+vim.keymap.set('n', '<leader>g', ':Neogit<CR>')
 vim.keymap.set("n", "<leader>j", ":tabnext<CR>", { noremap = true, silent = true })  -- Следующая вкладка
 vim.keymap.set("n", "<leader>k", ":tabprevious<CR>", { noremap = true, silent = true })  -- Предыдущая вкладка
 
